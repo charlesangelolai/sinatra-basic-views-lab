@@ -6,9 +6,9 @@ gem 'rake'
 gem 'thin'
 gem 'shotgun'
 gem 'pry'
+gem 'rspec'
+gem 'rack-test'
 
 group :test do
-  gem 'rspec'
   gem 'capybara'
-  gem 'rack-test'
 end
